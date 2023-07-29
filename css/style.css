@@ -1,0 +1,294 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #navbar {
+    display: flex;
+    align-items: center;
+} */
+
+/* logo and img */
+#logo {
+    margin: 10px 34px;
+
+}
+
+#logo img {
+    height: 56px;
+    margin: 3px 5px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Playball', cursive;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+
+}
+
+#navbar {
+    position: relative;
+    top: 0px;
+    
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 3;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 606px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home::before {
+
+    content: "";
+    background: url(../img/2.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 756px;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Playball', cursive;
+    margin-top: 100px;
+}
+.h-primarys{
+    font-size: 4.8rem;
+    padding: 12px;
+    font-family: 'Playball', cursive;
+    margin-top: 100px;
+    /* z-index: -3; */
+}
+img{
+    display: block;
+    width: 100px;
+    /* justify-content: left baseline; */
+    align-items: left ;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Playball', cursive;
+}
+
+#home h1 {
+    color: black;
+
+    text-align: center;
+}
+
+#home p {
+    color: black;
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playball', cursive;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid black;
+    margin: 17px 17px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+.btx a {
+    text-decoration: none;
+    
+    
+  color: black;
+    
+}
+.btx {
+    display:  block;
+    justify-content: center;
+    padding: 6px 20px;
+    border: 2px solid black;
+    /* background-color: black; */
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+}
+.btx:hover a{
+    /* background-color:white; */
+    color: white;
+   
+}
+.btx:hover {
+    background-color:black;
+   
+}
+
+
+.center {
+    text-align: center;
+}
+.services-container{
+    background-color: aqua;
+}
+
+#services {
+    
+    display: flex;
+   
+    
+}
+html{
+    scroll-behavior: smooth ;
+}
+
+#services .box {
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(178, 203, 203);
+    margin-top: 15px;
+}
+
+#services .box img  {
+    height:160px;
+    width: 160px;
+    display: block;
+    margin: auto;
+}
+
+#services .box p {
+    font-family: 'Playball', cursive;
+
+
+}
+
+#client-section {
+    position: relative;
+    /* height: 430px; */
+    /* margin: 25px auto; */
+    /* background-color: rgb(143, 35, 35); */
+    margin-top: -75px;
+
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/8.jpg);
+    width: 100%;
+    /* height: 53%; */
+    height: 98%;
+    /* margin-bottom: 25px; */
+    z-index: -1;
+    opacity: .6;
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+#clients img {
+    width: 280px;
+    z-index: -2;
+
+}
+
+.client-item {
+    padding: 15px;
+
+}
+
+#contact{
+    position: relative;
+    margin-top: -70px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .7;
+   background: url(../img/1.jpg) no-repeat center center/cover;
+   
+}
+
+footer{
+    background:black;
+    color: wheat;
+    padding: 9px 25px;
+}
+#contact-box {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    padding-bottom:34px ;
+}
+#contact-box input,
+#contact-box textarea
+{
+    width: 100%;
+    padding: .5rem;
+
+}
+
